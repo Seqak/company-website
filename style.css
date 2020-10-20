@@ -1,0 +1,347 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #3c424f !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+    background: #FFF;
+}
+
+header {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 150px;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+main {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.brand-font {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.my-nav-syles {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.header-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Arial', cursive;
+    padding-top: 155px;
+}
+
+.header-text{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.head-btn {
+    float: left;
+    width: 180px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 4.5%;
+    margin-right: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.head-btn:hover {
+    transition: .2s ease-in-out;
+    color: aliceblue !important;
+}
+
+.portfolio-btn {
+    border: 1px solid #3c424f;
+}
+
+.portfolio-btn:hover {
+    background-color: #3c424f;
+}
+
+.contact-btn {
+    background-color: #fa5242;
+    color: aliceblue !important;
+}
+
+.contact-btn:hover {
+    background-color: #e33225;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Arial', cursive;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.our-service-item {
+    padding: 0;
+    margin-bottom: 150px;
+
+}
+
+.article-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.article-text {
+    line-height: 24px;
+    text-align: justify;
+}
+
+
+.our-services-btn {
+    margin-top: 20px;
+    float: left;
+    width: 100px;
+    height: 40px;
+    color: aliceblue !important;
+    background-color: #f44336;
+    text-align: center;
+    padding-top: 9px;
+    border: none;
+}
+
+.our-services-btn:hover{
+    background-color: #e33225;
+}
+
+.our-service-header-img {
+    display: none;
+}
+
+.contact-title{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Arial', cursive;
+}
+
+
+.contact-input{
+    background-color: #343a40;
+    border: none;
+    border-bottom: 1px solid #f44336;  
+}
+
+.form-control{
+    font-size: 14px !important;
+}
+
+.contact-box h2{
+    
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.contact-box p{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.checkbox-text{
+    padding-top: 2px;
+    font-weight: 300;
+}
+
+.testimonials{
+    
+    margin-top: 200px;
+}
+
+.testimonials-photo{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+footer{
+    height: 150px;
+}
+
+@media (max-width: 1440px) {
+    .header-title {
+        padding-top: 40px;
+    }
+
+    .section-title {
+        font-size: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+}
+
+
+@media (max-width: 930px) {
+    
+    nav {
+        background-color: #f7f7f7;
+    }
+
+    header {
+        padding-top: 0px;
+    }
+
+    .my-nav-syles {
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+
+
+    }
+
+    .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0px;
+    }
+
+    .nav-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    .header-title {
+        /*        padding-top: 50px;*/
+        font-size: 30px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .head-btn {
+        width: 130px;
+        height: 50px;
+    }
+
+    .section-title {
+        font-size: 30px;
+        margin-top: 30%;
+        margin-bottom: 25%;
+        text-align: center;
+    }
+
+    .article-title {
+        font-size: 20px;
+    }
+
+    .our-service-img {
+        display: none;
+    }
+
+    .our-service-item {
+        padding: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .our-service-header-img {
+        display: block;
+    }
+    
+    .header-text{
+    font-size: 16px;
+}
+    
+    .contact-title{
+        font-size: 30px;
+        margin-left: 6%;
+    }
+    
+    .contact-box h2{
+    
+    padding-left: 6%;
+}
+
+    .contact-box p{
+        padding-left: 6%;
+    }
+
+    .contact-form{
+        padding-right: 6%;
+    }
+    
+    .our-services-btn{
+        padding-right: 6%;
+        width: 94%;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
