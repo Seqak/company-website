@@ -199,7 +199,20 @@ a:link {
 }
 
 
+/* START GSAP TEST*/
 
+.header-title span{
+    display: inline-block;
+}
+
+.g-sap{
+    transform: translateX(-10%);
+}
+
+.g-sap:nth-child(3){
+    transform: translateX(-30%);
+}
+/* END GSAP TEST*/
 
 
 
