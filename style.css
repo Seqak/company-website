@@ -244,12 +244,20 @@ a:link {
   padding-top: 2px;
 }
 
+.newsletter-btn:hover{
+  background-color: #e33225 !important;
+}
+
 .newsletter-label{
   padding-top: 15px;
   display: block;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
+}
+
+.social-box i:hover{
+  color: #f44336 !important;
 }
 
 
@@ -286,6 +294,35 @@ a:link {
 /* END OF ABOUT US PAGE */
 
 
+
+/* PORTFOLIO PAGE */
+/* PORTFOLIO PAGE */
+
+.project-box{
+  margin-bottom: 130px;
+}
+
+.project-box h2{
+  transform: translateX(-20%);
+  opacity: 0;
+}
+
+.project-box p{
+  transform: translateX(-20%);
+  opacity: 0;
+}
+
+.project-box img{
+  transform: translateX(20%);
+  opacity: 0;
+}
+
+.project-box img:hover{
+  transform: scale(0.7);
+}
+
+/* PORTFOLIO PAGE */
+/* PORTFOLIO PAGE */
 
 @media (max-width: 1440px) {
     .header-title {
