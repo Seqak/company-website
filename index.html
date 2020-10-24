@@ -296,30 +296,51 @@
             <div class="input-group">
               <input type="text" class="form-control" placeholder="E-mail" aria-describedby="button-addon2">
               <div class="input-group-append">
-                <a href="#" class="newsletter-btn" type="button" id="button-addon2">Submit</a>
+                <input type="button" class="newsletter-btn" type="button" id="newsletter-button" value="Submit" data-toggle="modal" data-target="#exampleModal">
               </div>
             </div>
-          </form>
+        </div>
+        </form>
 
-          <br>
+        <br>
 
-          <div class="social-box text-light mt-5">
-            <ul class="row ml-0">
-              <li class="social-item">
-                <a href="#"><i class="fab fa-twitter text-light h3 mr-4"></i></a>
-              </li>
-              <li class="social-item">
-                <a href="#"><i class="fab fa-instagram text-light h3 mr-4"></i></a>
-              </li>
-              <li class="social-item">
-                <a href="#"><i class="fab fa-facebook text-light h3 mr-4"></i></a>
-              </li>
-            </ul>
-          </div>
-
-
+        <div class="social-box text-light mt-5">
+          <ul class="row ml-0">
+            <li class="social-item">
+              <a href="#"><i class="fab fa-twitter text-light h3 mr-4"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="fab fa-instagram text-light h3 mr-4"></i></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><i class="fab fa-facebook text-light h3 mr-4"></i></a>
+            </li>
+          </ul>
         </div>
 
+
+      </div>
+
+    </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="pt-4">You have been subscribed to our newsletter. Thank you!</p>
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="newsletter-btn pl-4 pr-4 pt-2 pb-2" data-dismiss="modal">OK</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -368,9 +389,6 @@
       $('#testimonials-name').text("Jeff Bezos");
       $('#testimonials-position').text("BOSS");
     });
-
-
-
   </script>
 
 </body>
