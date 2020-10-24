@@ -105,6 +105,11 @@ a:link {
     background-color: #e33225;
 }
 
+.header-img{
+  transform: translateX(10%);
+  opacity: 0;
+}
+
 .section-title {
     text-transform: uppercase;
     font-weight: 900;
@@ -207,6 +212,7 @@ a:link {
 
 .g-sap{
     transform: translateX(-10%);
+    opacity: 0;
 }
 
 .g-sap:nth-child(3){
@@ -215,14 +221,10 @@ a:link {
 
 .g-sap-btn{
   transform: translateY(70%);
+  opacity: 0;
 }
 
 /* END GSAP TEST*/
-
-
-footer{
-  /* color: aliceblue !important; */
-}
 
 .footer li{
   display: block;
@@ -251,6 +253,40 @@ footer{
 }
 
 
+/* ABOUT US PAGE */
+/* ABOUT US PAGE */
+
+.about-section{
+  margin-bottom: 150px;
+}
+
+.about-section h2{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about-content{
+  text-align: justify;
+  opacity: 0;
+  transform: translateX(-20%);
+}
+
+#about-title{
+  transform: translateY(-60%);
+  opacity: 0;
+  margin-bottom: 120px;
+}
+
+.about-section img{
+  margin-top: 100px;
+}
+
+
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+
+
+
 @media (max-width: 1440px) {
     .header-title {
         padding-top: 40px;
@@ -260,6 +296,10 @@ footer{
         font-size: 50px;
         margin-top: 15%;
         margin-bottom: 15%;
+    }
+
+    .header-img{
+      width: 500px;
     }
 }
 
@@ -374,6 +414,23 @@ footer{
       display: block;
       text-align: left !important;
     }
+
+
+    /* ABOUT PAGE */
+
+    #about-title{
+      margin-top: 170px;
+      margin-bottom: 70px;
+    }
+    .about-content{
+      margin-left: 0;
+    }
+
+    .about-section{
+      margin-bottom: 100px;
+    }
+
+    /* END OF ABOUT PAGE */
 
 
 }
