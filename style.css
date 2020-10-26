@@ -321,8 +321,24 @@ a:link {
   transform: scale(0.7);
 }
 
-/* PORTFOLIO PAGE */
-/* PORTFOLIO PAGE */
+/* END OF ORTFOLIO PAGE */
+/* END OF ORTFOLIO PAGE */
+
+
+/* BLOG PAGE */
+/* BLOG PAGE */
+
+.article-info-item{
+  float: left;
+}
+
+.pagination-num{
+  margin-top: 80px;
+}
+
+/* END OF BLOG PAGE */
+/* END OF BLOG PAGE */
+
 
 @media (max-width: 1440px) {
     .header-title {

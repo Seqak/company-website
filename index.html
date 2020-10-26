@@ -53,7 +53,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
 
           <li class="nav-item">
@@ -76,8 +76,8 @@
           </h1>
           <p class="header-text g-sap-btn">12 years doing digital transformation of your business</p>
           <div class="btn-group g-sap-btn">
-            <a href="#" class="head-btn portfolio-btn">PORTFOLIO</a>
-            <a href="#" class="head-btn contact-btn">CONTACT</a>
+            <a href="portfolio.html" class="head-btn portfolio-btn">PORTFOLIO</a>
+            <a href="contact.html" class="head-btn contact-btn">CONTACT</a>
           </div>
         </div>
 
@@ -211,9 +211,16 @@
 
             <div class="form-check contact-form">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label text-light checkbox-text" for="exampleCheck1">I accept your <a href="#" style="color: aliceblue !important; text-decoration: underline;">Privacy Policy </a></label>
+              <label class="form-check-label text-light checkbox-text" for="exampleCheck1">I accept your <a href="#" style="color: aliceblue !important; text-decoration: underline;" id="newsletter-button3" data-toggle="modal" data-target="#exampleModal3">Privacy Policy </a></label>
             </div>
-            <button type="button" class="our-services-btn pb-2 mt-3">Send</button>
+            <!-- <button type="button" class="our-services-btn pb-2 mt-3">Send</button> -->
+
+              <!-- Send btn -->
+
+              <input type="button" class="newsletter-btn our-services-btn " type="button" id="newsletter-button2" value="Submit" data-toggle="modal" data-target="#exampleModal2">
+
+              <!-- End of Send btn  -->
+
           </form>
         </div>
       </div>
@@ -324,28 +331,72 @@
     </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p class="pt-4">You have been subscribed to our newsletter. Thank you!</p>
-          </div>
-          <div class="modal-footer border-0">
-            <button type="button" class="newsletter-btn pl-4 pr-4 pt-2 pb-2" data-dismiss="modal">OK</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
   </footer>
 
+  <!-- Modal newsletter-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="pt-4">You have been subscribed to our newsletter. Thank you!</p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="newsletter-btn pl-4 pr-4 pt-2 pb-2" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal newsletter-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel2">Success!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <p class="pt-4">We received your message. We contact you as quickly as it is possible.
+          <br> <br>
+            We're looking forward to our potential cooperation!</p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="newsletter-btn pl-4 pr-4 pt-2 pb-2" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Easter Egg -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content text-center">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel3">Holy God!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="pt-4">You are the first person who clicked this link to read our privacy policy. We are surprised. Get your 50% discount code for the website. </p>
+
+          <p>CODE: TheFirstOne </p>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="newsletter-btn pl-4 pr-4 pt-2 pb-2" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
 
