@@ -328,12 +328,27 @@ a:link {
 /* BLOG PAGE */
 /* BLOG PAGE */
 
+.pagination-num{
+  float: left;
+}
+
+.pagination{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 .article-info-item{
   float: left;
 }
 
-.pagination-num{
-  margin-top: 80px;
+.left-col{
+  transform: translateX(-30%);
+  opacity: 0;
+}
+
+.right-col{
+  transform: translateX(30%);
+  opacity: 0;
 }
 
 /* END OF BLOG PAGE */
@@ -485,5 +500,17 @@ a:link {
 
     /* END OF ABOUT PAGE */
 
+    .pagination{
+      font-size: 20px;
+      margin-left: 50px;
+    }
+
+    .post-title{
+      font-size: 28px;
+    }
+
+    .article-info-item:first-child {
+      margin-left: 16px;
+    }
 
 }

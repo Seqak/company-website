@@ -14,3 +14,5 @@ tlSlowMo.to(".header-img", {x: "0%", duration: 1, opacity:1})
 
 
 tlTwo.to(".project-box img, .project-box h2, .project-box p", {x: "0%", duration: 1, opacity:1})
+
+tlTwo.to(".left-col, .right-col", {x: "0%", duration: 0.4, opacity:1})
