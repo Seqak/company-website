@@ -198,6 +198,51 @@ a:link {
   border-radius: 50%;
 }
 
+
+/* testi test */
+
+.slide{
+	display: none;
+}
+
+.slide.active{
+	display: block;
+}
+
+.indiC{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #444;
+  margin-right: 15px;
+  margin-top: 4px;
+  transition: linear 0.2s;
+}
+
+.indiC:hover{
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  transition: linear 0.3s;
+}
+
+.indiC.active{
+  background-color: #f44336;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+}
+
+.slider-indicator{
+  margin-left: 47%;
+}
+
+/* End of testi test */
+
+
+
+
 /* START GSAP TEST*/
 .header-title span {
   display: inline-block;
@@ -335,6 +380,8 @@ a:link {
 
 /* END OF BLOG PAGE */
 /* END OF BLOG PAGE */
+
+
 /* CONTACT */
 .contact-section {
   margin-bottom: 150px;
@@ -500,5 +547,10 @@ a:link {
 
   .article-info-item:first-child {
     margin-left: 16px;
+  }
+
+  .slider-indicator{
+    margin-top: 50px;
+    margin-left: 40%;
   }
 }

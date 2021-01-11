@@ -177,31 +177,42 @@
   </section>
 
   <!--    Testimonials     -->
-  <section>
-    <div class="container mb-5">
-      <h1 class="section-title testimonials">Testimonials</h1>
-      <article>
-        <div class="row">
-          <div class="text-justify mb-5 testimonials-text">
-            <h2 id="testimonials-company" class="article-title mb-4">Exampel Company</h2>
-            <p id="testimonials-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra mollis ante eu vehicula. Quisque et ligula nibh. Aenean semper a mauris ac vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. In nec nunc nec augue ullamcorper dictum. Nam ac dolor et sem consequat venenatis. Sed dictum dignissim dignissim. Sed convallis suscipit diam, non imperdiet odio porta a.
-            </p>
-            <h3 id="testimonials-name" class="text-right">John Brown </h3>
-            <p id="testimonials-position" class="text-right">Product Owner</p>
-          </div>
-        </div>
+  <section class="testimonial">
+   <div class="container  mb-5">
+     <div class="title">
+       <h1 class="section-title">Testimonials</h1>
+     </div>
+     <div class="slider">
+       <div class="slide active">
+         <h2 id="testimonials-company" class="article-title mb-4">SONY</h2>
+         <p id="testimonials-text"> "Sed lacinia eros ac velit interdum dignissim. Nulla facilisi. Duis ornare augue at nulla blandit, nec molestie ligula ullamcorper. Integer commodo a eros nec eleifend. Nulla eget quam sed libero sollicitudin sagittis. Morbi congue, nibh ac molestie pretium, tellus mi placerat nisi, ac faucibus velit eros a turpis. Sed sit amet tincidunt quam. Phasellus iaculis, ipsum eu consequat facilisis, quam mauris fringilla mauris, id faucibus urna nunc id felis. Curabitur ut nulla condimentum, rhoncus arcu quis, laoreet leo. Mauris tincidunt, nibh id porta fringilla, elit felis maximus nibh, et maximus ex lacus ac purus."
+         </p>
+         <h3 id="testimonials-name" class="text-right">Anne James </h3>
+         <p id="testimonials-position" class="text-right">HR Manager</p>
+       </div>
+       <div class="slide">
+         <h2 id="testimonials-company" class="article-title mb-4">Oracle</h2>
+         <p id="testimonials-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra mollis ante eu vehicula. Quisque et ligula nibh. Aenean semper a mauris ac vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit. In nec nunc nec augue ullamcorper dictum. Nam ac dolor et sem consequat venenatis. Sed dictum dignissim dignissim. Sed convallis suscipit diam, non imperdiet odio porta a.
+         </p>
+         <h3 id="testimonials-name" class="text-right">John Brown </h3>
+         <p id="testimonials-position" class="text-right">Product Owner</p>
+       </div>
+       <div class="slide">
+         <h2 id="testimonials-company" class="article-title mb-4">AMAZON</h2>
+         <p id="testimonials-text"> "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed cursus sollicitudin mauris consequat rhoncus. Donec at odio ornare, cursus velit ut, placerat nisl. Etiam luctus egestas velit. Ut porta ante at turpis ornare cursus. Suspendisse vel ex et risus auctor dignissim. Quisque dui nisi, pharetra vitae velit nec, tempor auctor nunc. Aenean ac diam a felis gravida ultricies sed quis nisl. Nulla ut pellentesque elit. Duis accumsan tempus diam, eget accumsan magna interdum ac. Curabitur hendrerit accumsan tortor maximus feugiat. Nulla molestie sapien eu feugiat molestie. Sed id massa enim. Aenean ornare rhoncus nulla, imperdiet vestibulum nulla molestie at. Suspendisse nec urna id ante imperdiet imperdiet. Vestibulum leo lacus, rhoncus lacinia efficitur consectetur, pellentesque quis nisl."
+         </p>
+         <h3 id="testimonials-name" class="text-right">Jeff Bezos </h3>
+         <p id="testimonials-position" class="text-right">BOSS form Szczecin</p>
+       </div>
+     </div>
+     <div class="slider-indicator row" >
+       <div class="indiC active" data-id="0"></div>
+       <div class="indiC" data-id="1"></div>
+       <div class="indiC" data-id="2"></div>
+     </div>
+   </div>
 
-        <div class="row pl-5 dot-section">
-          <div class="col-sm-9 col-sm offset-5">
-            <input type="radio" checked id="option-left">
-            <input type="radio" checked id="option-center">
-            <input type="radio" checked id="option-right">
-          </div>
-        </div>
-      </article>
-    </div>
-  </section>
 
   <!-- footer  -->
   <footer class="navbar-dark bg-dark">
@@ -317,45 +328,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
+  <script src="slider.js"></script>
 
-  <script type="text/javascript">
-    $('#option-left').click(function() {
-
-      $('#testimonials-company').text("SONY");
-
-      $('#testimonials-text').text(
-        "Sed lacinia eros ac velit interdum dignissim. Nulla facilisi. Duis ornare augue at nulla blandit, nec molestie ligula ullamcorper. Integer commodo a eros nec eleifend. Nulla eget quam sed libero sollicitudin sagittis. Morbi congue, nibh ac molestie pretium, tellus mi placerat nisi, ac faucibus velit eros a turpis. Sed sit amet tincidunt quam. Phasellus iaculis, ipsum eu consequat facilisis, quam mauris fringilla mauris, id faucibus urna nunc id felis. Curabitur ut nulla condimentum, rhoncus arcu quis, laoreet leo. Mauris tincidunt, nibh id porta fringilla, elit felis maximus nibh, et maximus ex lacus ac purus."
-      );
-
-      $('#testimonials-name').text("Anne James");
-      $('#testimonials-position').text("HR Director");
-
-    });
-
-    $('#option-center').click(function() {
-
-      $('#testimonials-company').text("Oracle");
-
-      $('#testimonials-text').text(
-        " Morbi congue, nibh ac molestie pretium, tellus mi placerat nisi, ac faucibus velit eros a turpis. Sed sit amet tincidunt quam. Phasellus iaculis, ipsum eu consequat facilisis, quam mauris fringilla mauris, id faucibus urna nunc id felis.nteger elementum finibus porttitor. Donec mattis, ligula ut ullamcorper varius, lorem dolor maximus felis, eget semper ex risus vitae velit. Suspendisse imperdiet lacinia dui ut suscipit. Curabitur molestie elit ut magna iaculis tristique. Aliquam non lorem quis mauris dignissim varius a et lacus. Nunc dapibus tortor felis, et bibendum orci dictum sed. Sed mauris massa, tincidunt et rutrum ut, aliquam quis arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-      );
-
-      $('#testimonials-name').text("Franek Dolas");
-      $('#testimonials-position').text("CTO");
-
-    });
-
-    $('#option-right').click(function() {
-
-      $('#testimonials-company').text("Amazon");
-
-      $('#testimonials-text').text(
-        " Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed cursus sollicitudin mauris consequat rhoncus. Donec at odio ornare, cursus velit ut, placerat nisl. Etiam luctus egestas velit. Ut porta ante at turpis ornare cursus. Suspendisse vel ex et risus auctor dignissim. Quisque dui nisi, pharetra vitae velit nec, tempor auctor nunc. Aenean ac diam a felis gravida ultricies sed quis nisl. Nulla ut pellentesque elit. Duis accumsan tempus diam, eget accumsan magna interdum ac. Curabitur hendrerit accumsan tortor maximus feugiat. Nulla molestie sapien eu feugiat molestie. Sed id massa enim. Aenean ornare rhoncus nulla, imperdiet vestibulum nulla molestie at. Suspendisse nec urna id ante imperdiet imperdiet. Vestibulum leo lacus, rhoncus lacinia efficitur consectetur, pellentesque quis nisl."
-      );
-
-      $('#testimonials-name').text("Jeff Bezos");
-      $('#testimonials-position').text("BOSS");
-    });
-  </script>
 </body>
 </html>
