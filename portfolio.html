@@ -8,6 +8,8 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -71,7 +73,7 @@
 
           <div class="col-md-6 text-right">
             <a href="#">
-              <img src="img/inspinia-dashboard.png" class="img-fluid mt-0 shadow" alt="">
+              <img id="img1" src="img/projectimg.png" class="img-fluid mt-0 shadow test-popup-link" alt="" width="460">
             </a>
           </div>
           <hr>
@@ -88,7 +90,7 @@
           </div>
           <div class="col-md-6 text-right">
             <a href="#">
-              <img src="img/inspinia-dashboard.png" class="img-fluid mt-0 shadow" alt="">
+              <img src="img/projectimg.png" class="img-fluid mt-0 shadow" alt="" width="460">
             </a>
           </div>
           <hr>
@@ -105,7 +107,7 @@
           </div>
           <div class="col-md-6 text-right">
             <a href="#">
-              <img src="img/inspinia-dashboard.png" class="img-fluid mt-0 shadow" alt="">
+              <img src="img/projectimg.png" class="img-fluid mt-0 shadow" alt="" width="460">
             </a>
           </div>
           <hr>
@@ -182,6 +184,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
-  <script type="text/javascript"></script>
+  <script>
+
+  $(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+  </script>
 </body>
 </html>

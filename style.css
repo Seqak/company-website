@@ -384,7 +384,7 @@ a:link {
 
 /* CONTACT */
 .contact-section {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .contact-section-form {
@@ -395,6 +395,12 @@ a:link {
 .contact-section img {
   transform: translateX(30%);
   opacity: 0;
+}
+
+.googlemaps{
+  width: 100%;
+  height: 450px;
+
 }
 
 /* CONTACT */
