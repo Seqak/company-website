@@ -1,6 +1,6 @@
 myStorage = localStorage;
 
-$.ajax('http://ip-api.com/json').done(function (cityResponse) {
+$.ajax('https://ip-api.com/json').done(function (cityResponse) {
     cityData = cityResponse;
     localStorage.setItem('city', cityData["city"]);
     var guestCity =myStorage.getItem('city');
